@@ -64,3 +64,8 @@ target/
 interactive_dataset/geotweets/static/v3.15.1-dist.zip
 
 interactive_dataset/db.sqlite3
+
+interactive_dataset/staticfiles/*
+!interactive_dataset/staticfiles/README.md
+interactive_dataset/interactive_dataset/static/*
+!interactive_dataset/interactive_dataset/static/README.md
