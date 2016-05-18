@@ -1,6 +1,6 @@
 from django.conf.urls import url
 
-from geotweets import views
+from . import views
 
 urlpatterns = [
     # ex: /polls/
