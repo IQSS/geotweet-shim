@@ -60,3 +60,7 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+
+interactive_dataset/geotweets/static/v3.15.1-dist.zip
+
+interactive_dataset/db.sqlite3
