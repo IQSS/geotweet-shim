@@ -1,9 +1,11 @@
 from django.shortcuts import render
+from django.conf import settings
 
 def index(request):
 
     d = dict(title="A Billion Streaming GeoTweets",
-            contributor="Harvard Center for Geographic Analysis")
+            contributor="Harvard Center for Geographic Analysis",
+            mahooey=settings.MAHOOEY)
     return render(request, 'index.html', d)
 
 
