@@ -15,7 +15,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+#lib/
 lib64/
 parts/
 sdist/
@@ -61,7 +61,12 @@ target/
 #Ipython Notebook
 .ipynb_checkpoints
 
-interactive_dataset/geotweets/static/v3.15.1-dist.zip
+apps/geotweets/static/SolrHeatMap/assets/lib/angularjs/docs
+apps/geotweets/static/SolrHeatMap/assets/lib/angularjs/i18n/*
+!apps/geotweets/static/SolrHeatMap/assets/lib/angularjs/i18n/angular-locale_en*
+#apps/geotweets/static/static/*
+#!apps/geotweets/static/v3.15.1-dist.zip
+
 
 db.sqlite3
 
